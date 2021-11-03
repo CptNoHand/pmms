@@ -4,10 +4,10 @@ Config = {}
 Config.isRDR = IsDuplicityVersion() and GetConvar("gamename", "gta5") == "rdr3" or not TerraingridActivate
 
 -- Max distance at which inactive media player entities appear
-Config.maxDiscoveryDistance = 30.0
+Config.maxDiscoveryDistance = 50.0
 
 -- Default sound attenuation multiplier when in the same room
-Config.defaultSameRoomAttenuation = 4.0
+Config.defaultSameRoomAttenuation = 2.5
 
 -- Default sound attenuation multiplier when in a different room
 Config.defaultDiffRoomAttenuation = 6.0
@@ -699,7 +699,7 @@ Config.defaultMediaPlayers = {
 }
 
 -- Distance at which default media player entities spawn/despawn
-Config.defaultMediaPlayerSpawnDistance = Config.maxRange + 10.0
+Config.defaultMediaPlayerSpawnDistance = Config.maxRange + 20.0
 
 -- DUI configuration
 Config.dui = {}
@@ -716,7 +716,7 @@ Config.dui = {}
 -- 	b. Using your own web server:
 -- 		git clone --branch gh-pages https://github.com/kibook/pmms
 --
-Config.dui.url = "https://kibook.github.io/pmms"
+Config.dui.url = "https://CptNoHand.github.io/pmms"
 
 -- The screen width of the DUI browser
 Config.dui.screenWidth = 1280
@@ -728,7 +728,7 @@ Config.dui.screenHeight = 720
 Config.dui.timeout = 30000
 
 -- Prefix for commands
-Config.commandPrefix = "pmms"
+Config.commandPrefix = "media"
 
 -- Separator between prefix and command name
 Config.commandSeparator = "_"
