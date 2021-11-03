@@ -7,7 +7,7 @@ Config.isRDR = IsDuplicityVersion() and GetConvar("gamename", "gta5") == "rdr3" 
 Config.maxDiscoveryDistance = 50.0
 
 -- Default sound attenuation multiplier when in the same room
-Config.defaultSameRoomAttenuation = 2.5
+Config.defaultSameRoomAttenuation = 4.0
 
 -- Default sound attenuation multiplier when in a different room
 Config.defaultDiffRoomAttenuation = 6.0
